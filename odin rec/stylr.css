@@ -1,0 +1,194 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@100&family=Poppins:wght@300&display=swap');
+
+  *{
+    margin:0;
+    padding: 0;
+    background-color:antiquewhite;
+    text-decoration: none;
+  }
+  .header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header h1{
+   font-size:65px;
+   top: 30px;
+  }
+  .header img{
+    width: 35vw;
+  }
+  .main-content{
+    display: flex;
+    gap: 14.5rem;
+  }
+
+
+  .fav{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    /* overflow: hidden; */
+    flex-direction: column;
+    /* background: white; */
+    /* padding: 4px 4px; */
+    
+
+  }
+  .fav img{
+    margin-top: 5rem;
+    width:25rem;
+    z-index: 1;
+    border-radius: 35vh;
+    object-fit: cover;
+  }
+  
+  .favr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background: white; */
+    /* padding: 4px 4px; */
+  }
+  .favr img{
+    margin-top: 5rem;
+    width: 20rem;
+    z-index: 1;
+    border-radius: 15vh;
+    object-fit: cover;
+  }
+  .chicken{
+    margin-left: 10rem;
+    font-size: 1.55rem;
+  }
+  
+  .chicken p{
+    font-size:19px ;
+    font-weight:200 ;
+    margin-top: 25px;
+    text-decoration-style: Poppins;
+  }
+  .chicken img{
+    gap: 35px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 08px 10 ;
+  }
+  #ing{
+    margin-left: 12rem;
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .prep{
+    margin-left: 12rem;
+    margin-top: 15px;
+  }
+  .chc-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+  }
+  .chc-btn p{
+    padding: 8px 10px;
+    cursor: pointer;
+    color: rgb(28, 26, 26);
+    background-color:darkgray;
+    text-decoration:solid;
+  }
+  .rav{
+    margin-left: 10rem;
+    font-size: 1.55rem;
+   }
+
+  .ingr{
+    margin-left: 12rem;
+  }
+  .italy p{
+    font-size:19px ;
+    font-weight:200 ;
+    margin-top: 25px;
+    text-decoration-style: Poppins;
+  }
+  .italy{
+    margin-left: 10rem;
+    font-size: 1.55rem;
+  }
+
+  .italy img{ 
+    gap: 35px;
+    border-radius: 10px;
+    margin-top: 15px;
+   }
+  .preps{
+    margin-left: 12rem;
+    margin-top: 15px;
+  }
+  .Rav-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .Rav-btn p{
+    padding: 8px 10px;
+    cursor: pointer;
+    color: rgb(28, 26, 26);
+    background-color:darkgray;
+    text-decoration:solid;
+  }
+  .favro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .favro img{
+    margin-top: 5rem;
+    width: 20rem;
+    z-index: 1;
+    border-radius: 15vh;
+    object-fit: cover;
+  }
+  .pan{
+    margin-left: 10rem;
+    font-size: 1.55rem;
+   }
+   .ingri{
+    margin-left: 12rem;
+  }
+  .pan p{
+    font-size:19px ;
+    font-weight:200 ;
+    margin-top: 25px;
+    text-decoration-style: Poppins;
+  }
+  .pan img{ 
+    gap: 35px;
+    border-radius: 10px;
+    margin-top: 15px;
+   }
+   .prepr{
+    margin-left: 12rem;
+    margin-top: 15px;
+  }
+  .ingre{
+    margin-left: 12rem;
+  }
+  .dir{
+      margin-left: 12rem;
+      margin-top: 15px;
+    }
+    .pan-btn{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .pan-btn p{
+      padding: 8px 10px;
+      cursor: pointer;
+      color: rgb(28, 26, 26);
+      background-color:darkgray;
+      text-decoration:solid;
+    }
